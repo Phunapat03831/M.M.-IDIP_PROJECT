@@ -1,0 +1,293 @@
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* border: 3px solid orange; */
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.contact-images {
+  height: 40px;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+main { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li {
+
+  background-color: rgb(129, 125, 134);
+  display: flex;
+  float: left;
+  border-color: rgb(231, 225, 225);
+  padding: left;
+  margin: 40px;
+  background-color: rgb(214, 220, 224);
+
+}
+
+h1 {
+    color: blueviolet;
+    font: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+  box-sizing: border-box;
+  background-color: rgb(65	, 54, 110);
+  text-decoration: none;
+  display: inline-block;
+  margin: 1%;
+  padding: 10px 50px;
+  justify-content: left;
+  align-self: start;
+  color: aliceblue;
+}
+h2 {
+  font-family: "Inter", serif;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(Images/footer.jpeg);
+  
+
+}
+
+.hero-section {
+  background-image: url("Images/Featured-Image-How-to-Make-Money-in-Real-Estate-without-a-Lot-of-It.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px;
+}
+
+.Main-text {
+color: black;
+font-size: 50px;
+
+}
+
+.Main-text2 {
+  color: black;
+  font-size: 20px;
+  
+  }
+
+.OBJECTIVES {
+  background-color: rgb(214, 220, 224);
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0%;
+  padding: 1%;
+  justify-content: left;
+  align-self: start;
+
+}
+
+.objectives-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.objectives-paragraphs {
+  display: flex;
+}
+
+.Privilege-section {
+  padding: 40px;
+
+}
+
+.Privilege-1 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-right: 30px;
+
+}
+
+.Privilege-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+
+.Privilege-price {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.PICK-YOUR-PRIVILEGE {
+  
+  background-color: rgb(214, 220, 224);
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0%;
+  padding: 1%;
+  justify-content: left;
+  align-self: start;
+
+}
+
+
+.stock-market {
+  padding: 30px;
+  
+}
+
+.stock-market-live {
+  background-color: rgb(214, 220, 224);
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0%;
+  padding: 1%;
+  justify-content: left;
+  align-self: start;
+}
+
+.Currency-rate {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.Currency-exchange-rate {
+  background-color: rgb(214, 220, 224);
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0%;
+  padding: 1%;
+  justify-content: left;
+  align-self: start;
+}
+
+.Logo {
+  height: 250px;
+  width: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: px;
+}
+.grid-item {
+  background-color: rgba(95, 119, 206, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.grid-item-2 {
+  background-color: rgba(95, 139, 206, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.grid-item-3 {
+  background-color: rgba(218, 199, 166, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.grid-item-4 {
+  background-color: rgba(226, 236, 246, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-5 {
+  background-color: rgba(176, 188, 207, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-6 {
+  background-color: rgba(200, 202, 212, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-7 {
+  background-color: rgba(128, 172, 218, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.grid-item-8 {
+  background-color: rgba(95, 119, 206, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+.grid-item-9 {
+  background-color: rgba(171, 167, 166, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+.P1 {
+  background-color: rgb(95, 139, 206);
+  padding: 100px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.P2 {
+  background-color: rgb(95, 119, 206);
+  padding: 100px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.MM-Logo {
+  height: 400px;
+  width: auto;
+}
